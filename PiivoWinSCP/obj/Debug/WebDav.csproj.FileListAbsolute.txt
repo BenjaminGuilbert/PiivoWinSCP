@@ -1,0 +1,7 @@
+C:\SVN\Taches\WebDav\WebDav\WebDav\bin\Debug\WebDav.dll
+C:\SVN\Taches\WebDav\WebDav\WebDav\bin\Debug\WebDav.pdb
+C:\SVN\Taches\WebDav\WebDav\WebDav\bin\Debug\WinSCPnet.dll
+C:\SVN\Taches\WebDav\WebDav\WebDav\obj\Debug\WebDav.dll
+C:\SVN\Taches\WebDav\WebDav\WebDav\obj\Debug\WebDav.pdb
+C:\Program Files (x86)\Evolution\Piivo\WebDav.dll
+C:\Program Files (x86)\Evolution\Piivo\WebDav.pdb

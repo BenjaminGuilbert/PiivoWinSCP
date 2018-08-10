@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PiivoWinSCP</name>
+    </assembly>
+    <members>
+        <member name="T:PiivoWinSCP.SFTP">
+            <summary>
+            Class to communicate to a SFTP server
+            </summary>
+        </member>
+        <member name="M:PiivoWinSCP.SFTP.Get(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Download Files from the remote server to the local server
+            </summary>
+            <param name="RemotePath">Path in the distant server</param>
+            <param name="LocalPath">Path in the local server</param>
+            <param name="HostName">DNS of the server</param>
+            <param name="PortNumber">the port number</param>
+            <param name="Login">User name</param>
+            <param name="Password">User's Password</param>
+            <param name="SshHostKeyFingerprint">ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx...</param>
+            <param name="MoveFiles">if true, the file in the remote server will be deleted</param>
+            <param name="TimeStamped">if true, the datetime will be add in the end of the file name</param>
+        </member>
+        <member name="M:PiivoWinSCP.SFTP.Put(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Upload Files from the local server to the remote server
+            </summary>
+            <param name="LocalPath">Path in the local server</param>
+            <param name="RemotePath">Path in the distant server</param>
+            <param name="HostName">DNS of the server</param>
+            <param name="PortNumber">the port number</param>
+            <param name="Login">User name</param>
+            <param name="Password">User's Password</param>
+            <param name="SshHostKeyFingerprint">ssh-rsa 2048 xx:xx:xx:xx:xx:xx:xx:xx...</param>
+            <param name="MoveFiles">if true, the file in the remote server will be deleted</param>
+            <param name="TimeStamped">if true, the datetime will be add in the end of the file name</param>
+        </member>
+        <member name="M:PiivoWinSCP.Utils.RenameFilesWithTimeStamp(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Add a timeStamp in the end of each files
+            </summary>
+            <param name="LocalPath"></param>
+            <param name="files"></param>
+        </member>
+        <member name="M:PiivoWinSCP.Utils.RenameFileWithTimeStamp(System.String)">
+            <summary>
+            Add timeStamp in the end of the file
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:PiivoWinSCP.Utils.CreateCSV(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Create a CSV File containing all files' name
+            </summary>
+            <param name="path"></param>
+            <param name="allFilesTransfered"></param>
+        </member>
+        <member name="T:PiivoWinSCP.WebDav">
+            <summary>
+            Class to communicate to a WebDav server
+            </summary>
+        </member>
+        <member name="M:PiivoWinSCP.WebDav.Put(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Move one or more files from local directory to remote directory.
+            </summary>
+            <param name="LocalPath">Full local path</param>
+            <param name="HostName">DNS of the remote server</param>
+            <param name="WebDavRoot">path to the root of the webdav</param>
+            <param name="RemotePath">path from root to the folder targeted in the remote server</param>
+            <param name="Login">User name</param>
+            <param name="Password">User's password</param>
+            <param name="MoveFiles">if true, the file in the local server will be deleted</param>
+            <param name="CsvResultFilePath"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\bin\Release\PiivoWinSCP.dll
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\bin\Release\PiivoWinSCP.pdb
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\bin\Release\WinSCPnet.dll
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\obj\Release\PiivoWinSCP.dll
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\obj\Release\PiivoWinSCP.pdb
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\bin\Release\PiivoWinSCP.XML
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\bin\Release\EvoLogCLR.dll

@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Evolution\Piivo\PiivoWinSCP.dll
+C:\Program Files (x86)\Evolution\Piivo\PiivoWinSCP.pdb
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\obj\Debug\PiivoWinSCP.dll
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\obj\Debug\PiivoWinSCP.pdb
+C:\SVN\Taches\PiivoWinSCP\PiivoWinSCP\PiivoWinSCP\obj\Debug\PiivoWinSCP.csprojResolveAssemblyReference.cache
